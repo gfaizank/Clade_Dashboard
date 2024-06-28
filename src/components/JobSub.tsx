@@ -1,6 +1,6 @@
+import React from 'react';
 
-
-function JobSub() {
+const JobSub: React.FC = () => {
   return (
     <div className="w-[1438px] flex gap-28 items-start justify-start bg-white border border-[#E7E7E7] py-5 pl-28 h-[200px]">
       <div>

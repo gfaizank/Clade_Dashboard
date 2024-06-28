@@ -1,6 +1,6 @@
-// import React from 'react';
+import React from 'react';
 
-function Header() {
+const Header: React.FC = () => {
   return (
     <div className="w-full h-[100px] text-black gap-0 flex justify-center items-center bg-white shadow-md">
       <div className="h-[61px] flex justify-between items-center px-8 w-full">

@@ -1,6 +1,7 @@
 import Layout from '../layouts'
+import React from 'react';
 
-function HomePage() {
+const HomePage: React.FC = () => {
   return (
     <>
     <Layout />

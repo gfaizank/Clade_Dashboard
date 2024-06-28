@@ -1,5 +1,6 @@
+import React from 'react';
 
-function JobTitle() {
+const JobTitle: React.FC = () => {
   return (
     <div className="w-[1438px] bg-white border flex flex-col items-start justify-center border-[#E7E7E7] py-5 pl-28 h-[155px]">
       <div>

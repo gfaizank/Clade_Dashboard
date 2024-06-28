@@ -5,8 +5,9 @@ import JobTitle from '../components/JobTitle';
 import JobSub from '../components/JobSub';
 import JobBody from '../components/JobBody';
 import JobFooter from '../components/JobFooter';
+import React from 'react';
 
-function Layout() {
+const Layout: React.FC = () => {
   return (
     <div className='flex flex-col items-center bg-white border'>
         <Header />

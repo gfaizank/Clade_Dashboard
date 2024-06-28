@@ -1,5 +1,6 @@
+import React from 'react';
 
-function JobFooter() {
+const JobFooter: React.FC = () => {
   return (
     <div className='w-[1438px] bg-white pt-8 pb-10 h-[350px] pl-28 border border-[#E7E7E7]'>
         <span className="flex gap-4 items-center">

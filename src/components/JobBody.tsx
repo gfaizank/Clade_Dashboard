@@ -1,6 +1,6 @@
+import React from 'react';
 
-
-function JobBody() {
+const JobBody: React.FC = () => {
   return (
     <div className='w-[1438px] bg-white border border-[#E7E7E7] py-5 pl-28 h-[475px]'>
       <h3 className='text-sm font-medium text-[#6E6d6d]'>About the job</h3>

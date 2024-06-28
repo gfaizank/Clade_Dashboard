@@ -1,9 +1,9 @@
 
 import HomePage from './views/HomePage'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React from 'react';
 
-
-function App() {
+const App: React.FC = () => {
   
 
   return (
